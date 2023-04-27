@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<!-- Coding by Coding bow.codinglabweb.com * -->
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!---==== CSS ====--->
+
+<link rel="stylesheet" href="style/style.css">
+
+<!-- ==== Iconscout CSS ==== -->
+
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+<title> Create File Form </title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header>CREATE DOCUMENT</header>
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Document Details</span>
+
+                    <div class="fields">
+
+                        <div class="input-field">
+                            <label>Desktop No.</label>
+                            <input type="text" name="desk_id" placeholder="Enter your desktop number" required>
+                                
+                        </div> 
+                        
+                        <div class="input-field">
+                            <label>Document Type</label>
+                            <select name="doc_type" id="status">
+                                <option value="select">Select</option>
+                                <option value="note">Note</option>
+                                <option value="circular">Circular</option>
+                                <option value="letter">Letter</option>
+                                <option value="invoice">Invoice</option>
+                                
+                            </select>
+
+                            
+                        </div>
+
+                        <div class="input-field">
+                            <label>Document Status</label>
+                            <select name="doc_status" id="status">
+                                <option value="select">Select</option>
+                                <option value="underprocess">Underprocess</option>
+                                <option value="pending">Pending</option>
+                                <option value="completed">Completed</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Documnet Owner</label>
+                            <input type="text" name="doc_owner" placeholder="Enter document owner's name" required>
+
+                        </div>
+
+                        <div class="input-field">
+                            <label>Contact No. (Document owner)</label>
+                            <input type="text" name="phn_owner" placeholder="Enter contact number" required>
+
+                        </div>
+
+                        <div class="input-field">
+                            <label>Description of Document</label>
+                            <textarea <input type="text" name="doc_desc" placeholder="Description of document"  required>
+                            </textarea>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Addrerssed To</label>
+                            <input type="text" name="addressed_to" placeholder="Enter your name" required>
+
+                        </div>
+
+                        <div class="input-field">
+                            <label>Number of Copies</label>
+                            <input type="text" name="no_of_copies" placeholder="number of copies" required>
+
+                        </div>
+
+                        <div class="input-field">
+                            <label>Document Created By</label>
+                            <input type="text" name="created_by" placeholder="Enter name" required>
+
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mode of Document</label>
+                            <select name="doc_mode" id="status">
+                                <option value="select">Select</option>
+                                <option value="public">Public</option>
+                                <option value="private">Private</option>
+                                <option value="confidential">confidential</option>
+                            </select>
+                            
+                        </div>
+
+                        <div class="input-field">
+                            <label>Department ID</label>
+                            <input type="text" name="dept" placeholder="Choose department id" required>
+
+                        </div>
+
+                        <div class="input-field">
+                            <label>Document Reference No.</label>
+                            <input type="text" name="doc_ref_no" placeholder="Enter reference number" required>
+
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btntext">SUBMIT</span>
+                        <i class=""uil uil-navigator"></i>
+                    </button>
+
+
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
